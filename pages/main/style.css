@@ -1,1 +1,121 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Georgia";
+}
+
+a {
+  text-decoration: none;
+  color: #CDCDCD;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.header .header__container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header__logo__title {
+  color: #F1CDB3;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+}
+.header .header__logo__subtitle {
+  color: #fff;
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+.header .nav {
+  max-width: 443px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.header .nav__link {
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+.header .nav__link_active {
+  color: #fafafa;
+  border-bottom: 3px solid #F1CDB3;
+}
+.header .nav__link_active:hover {
+  color: #F1CDB3;
+  border-bottom: 3px solid #fafafa;
+}
+
+.main .not-only {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url(../assets/images/start-screen-gradient-background.jpg);
+  background-size: cover;
+}
+.main .not-only .not-only__container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 180px 40px 0;
+  display: flex;
+}
+.main .not-only .not-only__img {
+  max-width: 698px;
+}
+.main .not-only .not-only__content {
+  margin-top: 163px;
+  max-width: 460px;
+}
+.main .not-only .not-only__heading {
+  margin-bottom: 42px;
+  max-width: 310px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 57.2px;
+}
+.main .not-only .not-only__subheading {
+  margin-bottom: 42px;
+  color: #CDCDCD;
+  font-family: "Arial";
+  font-size: 15px;
+  line-height: 24px;
+}
+.main .not-only .not-only__btn {
+  background: #F1CDB3;
+  padding: 15px 45px;
+  border-radius: 100px;
+}
+.main .not-only .btn-link {
+  color: #292929;
+  font-family: "Georgia";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22.1px;
+  letter-spacing: 0.06em;
+}/*# sourceMappingURL=style.css.map */
