@@ -18,6 +18,7 @@ button {
   cursor: pointer;
 }
 
+/*===== Header =====*/
 .header {
   width: 100%;
   display: flex;
@@ -71,6 +72,13 @@ button {
   border-bottom: 3px solid #fafafa;
 }
 
+/*===== Header =====*/
+.main {
+  /*===== not-only =====*/
+  /*===== not-only =====*/
+  /*===== About =====*/
+  /*===== About =====*/
+}
 .main .not-only {
   width: 100%;
   display: flex;
@@ -118,4 +126,44 @@ button {
   font-weight: 400;
   line-height: 22.1px;
   letter-spacing: 0.06em;
+}
+.main .about {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.main .about .about__container {
+  max-width: 1200px;
+  margin: 80px 40px 100px;
+  display: flex;
+}
+.main .about .about__content {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 175px;
+  display: flex;
+}
+.main .about .about__img {
+  height: 408px;
+}
+.main .about .info {
+  margin-left: 120px;
+}
+.main .about .info__heading {
+  margin-bottom: 25px;
+  max-width: 370px;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 45.5px;
+  letter-spacing: 0.06em;
+}
+.main .about .info__subheading {
+  max-width: 430px;
+  font-family: "Arial";
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.main .about .info__subheading:nth-child(2) {
+  margin-bottom: 25px;
 }/*# sourceMappingURL=style.css.map */
